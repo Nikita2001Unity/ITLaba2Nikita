@@ -1,0 +1,73 @@
+body{
+    background: wheat;
+}
+/* .container{
+    width: 100%;
+    display: flex;
+    padding: 0 5px;
+    margin: 0 auto;
+    background: black;
+} */
+.Myname{
+    margin-top: 0px;
+    margin-left: 10px;
+    color: black;
+    position: absolute;
+}
+.Mygroup{
+    margin-top: 0px;
+    margin-left: 10px;
+    position: relative;
+    color: black;
+}
+input::-webkit-input-placeholder {
+ color: black; 
+ font-size: 18px;
+ opacity: .5;
+}
+input:valid{
+background: green;
+}
+input:invalid{
+background: red;
+}
+input{
+   border: 3px solid rgb(132, 211, 243);
+   margin-left: 40%;
+   width: 200px;
+   height: 30px;
+   font-size: 18px;
+}
+p{
+    margin-left: 40%;
+    width: 200px;
+    height: 30px;
+    color: rgb(44, 92, 250);
+    font-size: 23px;
+}
+.country{
+    margin-left: 40%;
+    width: 200px;
+    height: 30px;
+    color: black;
+    background: rgb(224, 198, 164);
+    border: 3px solid yellow;
+    
+}
+button{
+    margin-left: 40%;
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    font-size: 30px;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: bounce-1;
+    animation-timing-function: linear;
+}
+@keyframes bounce-1 {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
+
